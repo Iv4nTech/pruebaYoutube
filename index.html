@@ -3,55 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Web Gratis</title>
+    <title>Página Llamativa</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenido a mi web gratis con GitHub Pages</h1>
+        <h1 class="fade-in">¡Bienvenido a mi increíble web! 🚀</h1>
     </header>
     <main>
-        <p>Este es un sitio de prueba alojado en GitHub Pages.</p>
-        <button onclick="mostrarMensaje()">Haz clic aquí</button>
+        <p class="slide-up">Disfruta de animaciones y un diseño moderno.</p>
+        <button id="magicButton">Haz Magia ✨</button>
         <p id="mensaje"></p>
     </main>
+    <footer>
+        <p>Creado con ❤️ y GitHub Pages</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
-
-
-style.css:
-
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
-header {
-    background: #333;
-    color: white;
-    padding: 20px;
-}
-
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background: #008cba;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #005f75;
-}
-
-
-script.js:
-
-function mostrarMensaje() {
-    document.getElementById("mensaje").textContent = "¡GitHub Pages es genial!";
-}
