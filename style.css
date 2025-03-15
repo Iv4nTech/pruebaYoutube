@@ -22,7 +22,7 @@ header {
 button {
     padding: 15px 30px;
     font-size: 18px;
-    background: #00d4ff;
+    background: #ff4500; /* Cambio de color para que combine mejor con el fondo */
     color: white;
     border: none;
     cursor: pointer;
@@ -31,7 +31,7 @@ button {
 }
 
 button:hover {
-    background: #00aaff;
+    background: #cc3700;
     transform: scale(1.1);
 }
 
